@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Prosto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./css/main-page.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-top">
+        <div class="header__logo">
+          <img src="./images/img-header/logo.png" alt="logo" />
+          <p>Персональный турагент</p>
+        </div>
+        <div class="header-contacts header-contacts-desc">
+          <div class="contacts__info">
+            <div class="contacts-links block-flex">
+              <img src="./images/img-header/call.svg" alt="phone" />
+              <a class="phone" href="tel:+375296801830"> +375 44 545 55 35</a>
+              <div class="social__wrapper">
+                <a
+                  class="social-link"
+                  href="viber://add?number=+375445455535"
+                  target="_blank"
+                >
+                  <img src="./images/img-header/viber.svg" alt="viber" />
+                </a>
+                <a
+                  class="social-link"
+                  href="https://wa.me/+375445455535"
+                  target="_blank"
+                >
+                  <img src="./images/img-header/whatsapp.svg" alt="whatsapp" />
+                </a>
+                <a
+                  class="social-link"
+                  href="https://t.me/+375445455535"
+                  target="_blank"
+                >
+                  <img src="./images/img-header/telegram.svg" alt="telegram" />
+                </a>
+              </div>
+            </div>
+            <div class="contacts__address block-flex">
+              <img src="./images/img-header/location.svg" alt="address" />
+              <p>Минск, пр-т Независимости, 11/2, офис 201</p>
+            </div>
+          </div>
+          <div class="contacts__working-hours block-flex">
+            <img src="./images/img-header/time.svg" alt="working hours" />
+            <p class="working-hours-desc">
+              Пн-Пт с 10 до 19, Сб с 11 до 16, Вс - выходной
+            </p>
+            <p class="working-hours-mob">
+              Пн-Пт с 10 до 19 <br />Сб с 11 до 16<br />
+              Вс - выходной
+            </p>
+          </div>
+        </div>
+        <button class="header__btn header__btn-desc">Заказать звонок</button>
+        <div class="burger" id="burger">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="nav__wrapper" id="nav__wrapper">
+      <nav class="nav" id="navigation">
+        <img
+          class="burger-close"
+          id="burger-close"
+          src="./images/img-header/burger-close.svg"
+          alt="close"
+        />
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link"
+              >Каталог круизов
+              <img
+                class="arrow-nav"
+                src="./images/img-header/arrow-menu.svg"
+                alt="arrow"
+            /></a>
+            <ul class="submenu">
+              <li class="submenu__item">
+                <a class="submenu__link">кругосветка</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link">по нилу</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link"
+              >Страны
+              <img
+                class="arrow-nav"
+                src="./images/img-header/arrow-menu.svg"
+                alt="arrow"
+            /></a>
+            <ul class="submenu">
+              <li class="submenu__item">
+                <a class="submenu__link">дубай</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link">турция</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link">испания</a>
+              </li>
+              <li class="submenu__item"><a class="submenu__link">сша</a></li>
+              <li class="submenu__item submenu__item-more">
+                еще
+                <img
+                  class="arrow-nav-more"
+                  src="./images/img-header/arrow-menu.svg"
+                  alt="arrow"
+                />
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link">китай</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link">египет</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link"
+              >лайнеры
+              <img
+                class="arrow-nav"
+                src="./images/img-header/arrow-menu.svg"
+                alt="arrow"
+            /></a>
+            <ul class="submenu">
+              <li class="submenu__item">
+                <a class="submenu__link">европа</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link">виртуоза</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item"><a class="nav__link">О нас </a></li>
+          <li class="nav__item"><a class="nav__link">Контакты </a></li>
+          <li class="nav__item"><a class="nav__link">Оплата </a></li>
+          <li class="nav__item"><a class="nav__link">Отзывы</a></li>
+          <li class="nav__item">
+            <a class="nav__link">Документы и Сертификаты</a>
+          </li>
+        </ul>
+        <ul class="submenu">
+          <li class="submenu__item"><a class="submenu__link">дубай</a></li>
+          <li class="submenu__item"><a class="submenu__link">турция</a></li>
+          <li class="submenu__item"><a class="submenu__link">испания</a></li>
+          <li class="submenu__item"><a class="submenu__link">сша</a></li>
+          <li class="submenu__item submenu__item-more">еще</li>
+          <li class="submenu__item"><a class="submenu__link">китай</a></li>
+          <li class="submenu__item"><a class="submenu__link">египет</a></li>
+        </ul>
+
+        <div class="header-contacts header-contacts-mob">
+          <div class="contacts__info">
+            <div class="contacts-links block-flex">
+              <img src="./images/img-header/call.svg" alt="phone" />
+              <a class="phone" href="tel:+375296801830"> +375 44 545 55 35</a>
+              <div class="social__wrapper">
+                <a
+                  class="social-link"
+                  href="viber://add?number=+375445455535"
+                  target="_blank"
+                >
+                  <img src="./images/img-header/viber.svg" alt="viber" />
+                </a>
+                <a
+                  class="social-link"
+                  href="https://wa.me/+375445455535"
+                  target="_blank"
+                >
+                  <img src="./images/img-header/whatsapp.svg" alt="whatsapp" />
+                </a>
+                <a
+                  class="social-link"
+                  href="https://t.me/+375445455535"
+                  target="_blank"
+                >
+                  <img src="./images/img-header/telegram.svg" alt="telegram" />
+                </a>
+              </div>
+            </div>
+            <div class="contacts__address block-flex">
+              <img src="./images/img-header/location.svg" alt="address" />
+              <p>Минск, пр-т Независимости, 11/2, офис 201</p>
+            </div>
+          </div>
+          <div class="contacts__working-hours block-flex">
+            <img src="./images/img-header/time.svg" alt="working hours" />
+            <p class="working-hours-mob">
+              Пн-Пт с 10 до 19 <br />Сб с 11 до 16<br />
+              Вс - выходной
+            </p>
+          </div>
+        </div>
+        <button class="header__btn header__btn-mob">Заказать звонок</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="advantages">
+    <div class="advantages__inner">
+      <h3 class="advantages_title">Наши преимущества</h3>
+      <div class="advantages__cards">
+        <div class="advantages__card">
+          <img class="card__img" src="./images/advantages/card-1.png" alt="img">
+          <h4 class="card__title">КРУТОЙ<br><span>офис</span></h4>
+          <div class="card__text">
+            Комфортный офис в центре Минска с удобным расположением!
+          </div>
+        </div>
+        <div class="advantages__card">
+          <img class="card__img" src="./images/advantages/card-2.png" alt="img">
+          <h4 class="card__title">>2 000 000<br><span>туров</span></h4>
+          <div class="card__text">
+            Миллионы туров от самых надёжных туристических операторов!
+          </div>
+        </div>
+        <div class="advantages__card">
+          <img class="card__img" src="./images/advantages/card-3.png" alt="img">
+          <h4 class="card__title">>10 000<br><span>туристов</span></h4>
+          <div class="card__text">
+            Мы отправили в отпуск за 10 лет работы!
+          </div>
+        </div>
+        <div class="advantages__card">
+          <img class="card__img" src="./images/advantages/card-4.png" alt="img">
+          <h4 class="card__title">0 РУБ.<br><span>наценка</span></h4>
+          <div class="card__text">
+            Цена на тур без лишних наценок, всё как у туроператоров!
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="best-routes">
+    <div class="best-routes__inner">
+      <p class="best-routes__subtitle">круизы, которые я рекомендую</p>
+      <h3 class="best-routes__title">4 лучших маршрута на 2024 год</h3>
+      <div class="slider-arrows-wrapper">
+        <div class="best-routes-items">
+          <div class="best-routes-card routes-card-1">
+            <div class="routes-card-title">
+              <h5 class="rout-name">
+                Персидский залив
+              </h5>
+              <p class="rout-date rout-date-desc">
+                <img src="./images/best-routs/icons/timer.svg" alt="icon"> 11 дней - 10 ночей
+
+
+              </p>
+            </div>
+            <p class="rout-description">
+              Зимний безвизовый круиз по Ближнему Востоку с прямым перелетом из Минска
+            </p>
+
+            <p class="rout-date rout-date-mob">
+              <img src="./images/best-routs/icons/timer.svg" alt="icon"> 11 дней - 10 ночей
+
+
+            </p>
+            <ul class="rout-details">
+              <li class="rout-info-item">
+                <p class="item-text-title">МАРШРУТ:</p>
+                <p class="item-text">Дубай -Доха - Бахрейн - Абу-Даби - остров-заповедник Сир-Бани-Яс</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">КОРАБЛЬ:</p>
+                <p class="item-text">MSC Virtuosa</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">КОМПАНИЯ:</p>
+                <p class="item-text">MSC Cruises</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">РЕЙТИНГ:</p>
+                <p class="item-text">4,7</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">ТРАНСФЕР:</p>
+                <p class="item-text">Групповой</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">ПИТАНИЕ:</p>
+                <p class="item-text">Полный пансион</p>
+
+              </li>
+            </ul>
+            <div class="rout-details-list">
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-1.svg" alt="icon">
+                <p>русскоязычная группа</p>
+              </div>
+              <div class="rout-details-icons rout-details-icons-width">
+                <img src="./images/best-routs/icons/icon-2.svg" alt="icon">
+                <p>включены <br>портовые сборы</p>
+              </div>
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-3.svg" alt="icon">
+                <p>дети <br> бесплатно</p>
+              </div>
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-4.svg" alt="icon">
+                <p>безвизовый круиз</p>
+              </div>
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-5.svg" alt="icon">
+                <p>удобный переезд</p>
+              </div>
+            </div>
+
+            <div class="details-price">
+              <a class="details-more-link" href="#">Посмотреть</a>
+              <div class="price">от <span>1266</span> <span class="currency">EUR</span></div>
+            </div>
+
+
+
+          </div>
+          <div class="best-routes-card routes-card-2">
+            <div class="routes-card-title">
+              <h5 class="rout-name">
+                Норвежские фьорды
+              </h5>
+              <p class="rout-date rout-date-desc">
+                <img src="./images/best-routs/icons/timer.svg" alt="icon"> 7 дней - 6 ночей
+
+
+              </p>
+            </div>
+            <p class="rout-description">
+              Самые красивые места в Северной Европе на новейшем лайнере MSC Euribia
+            </p>
+
+            <p class="rout-date rout-date-mob">
+              <img src="./images/best-routs/icons/timer.svg" alt="icon"> 7 дней - 6 ночей
+
+
+            </p>
+            <ul class="rout-details">
+              <li class="rout-info-item">
+                <p class="item-text-title">МАРШРУТ:</p>
+                <p class="item-text">Киль - Копенгаген - Хеллесильт - Молде/Олесунн - Флом
+                </p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">КОРАБЛЬ:</p>
+                <p class="item-text">MSC Euribia</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">КОМПАНИЯ:</p>
+                <p class="item-text">MSC Cruises</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">РЕЙТИНГ:</p>
+                <p class="item-text">4,8</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">ТРАНСФЕР:</p>
+                <p class="item-text">Групповой</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">ПИТАНИЕ:</p>
+                <p class="item-text">Полный пансион</p>
+
+              </li>
+            </ul>
+            <div class="rout-details-list">
+
+              <div class="rout-details-icons rout-details-icons-width">
+                <img src="./images/best-routs/icons/icon-2.svg" alt="icon">
+                <p>включены <br>портовые сборы</p>
+              </div>
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-3.svg" alt="icon">
+                <p>дети <br> бесплатно</p>
+              </div>
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-7.svg" alt="icon">
+                <p>популярный<br> круиз</p>
+              </div>
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-6.svg" alt="icon">
+                <p>речной <br>
+                  круиз</p>
+              </div>
+            </div>
+
+            <div class="details-price">
+              <a class="details-more-link" href="#">Посмотреть</a>
+              <div class="price">от <span>1946</span> <span class="currency">EUR</span></div>
+            </div>
+
+
+
+          </div>
+          <div class="best-routes-card routes-card-3">
+            <div class="routes-card-title">
+              <h5 class="rout-name">
+                Средиземное море
+              </h5>
+              <p class="rout-date rout-date-desc">
+                <img src="./images/best-routs/icons/timer.svg" alt="icon"> 11 дней - 10 ночей
+
+
+              </p>
+            </div>
+            <p class="rout-description">
+              Италия, Мальта, Испания и Франция на борту самого большого флагманского лайнера MSC
+            </p>
+
+            <p class="rout-date rout-date-mob">
+              <img src="./images/best-routs/icons/timer.svg" alt="icon"> 11 дней - 10 ночей
+
+
+            </p>
+            <ul class="rout-details">
+              <li class="rout-info-item">
+                <p class="item-text-title">МАРШРУТ:</p>
+                <p class="item-text">Генуя -Неаполь - Мессина (Сицилия) - Валлетта (Мальта) - Барселона - Марсель
+                </p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">КОРАБЛЬ:</p>
+                <p class="item-text">MSC World Europa</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">КОМПАНИЯ:</p>
+                <p class="item-text">MSC Cruises</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">РЕЙТИНГ:</p>
+                <p class="item-text">4,9</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">ТРАНСФЕР:</p>
+                <p class="item-text">Групповой</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">ПИТАНИЕ:</p>
+                <p class="item-text">Полный пансион</p>
+
+              </li>
+            </ul>
+            <div class="rout-details-list">
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-1.svg" alt="icon">
+                <p>русскоязычная группа</p>
+              </div>
+
+              <div class="rout-details-icons rout-details-icons-width">
+                <img src="./images/best-routs/icons/icon-2.svg" alt="icon">
+                <p>включены <br>портовые сборы</p>
+              </div>
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-3.svg" alt="icon">
+                <p>дети <br> бесплатно</p>
+              </div>
+            </div>
+
+            <div class="details-price">
+              <a class="details-more-link" href="#">Посмотреть</a>
+              <div class="price">от <span>2006</span> <span class="currency">EUR</span></div>
+            </div>
+
+
+
+          </div>
+          <div class="best-routes-card routes-card-4">
+            <div class="routes-card-title">
+              <h5 class="rout-name">
+                Три моря из Стамбула
+              </h5>
+              <p class="rout-date rout-date-desc">
+                <img src="./images/best-routs/icons/timer.svg" alt="icon"> 10 дней - 9 ночей
+
+
+              </p>
+            </div>
+            <p class="rout-description">
+              Круиз по Восточному Средиземноморью: от Адриатики до Эгейского моря
+            </p>
+
+            <p class="rout-date rout-date-mob">
+              <img src="./images/best-routs/icons/timer.svg" alt="icon"> 10 дней - 9 ночей
+
+
+            </p>
+            <ul class="rout-details">
+              <li class="rout-info-item">
+                <p class="item-text-title">МАРШРУТ:</p>
+                <p class="item-text">Стамбул - о. Корфу - Бари - Триест - Катаколон (Пелопоннес) - Пирей (Афины) -
+                  Кушадасы
+                </p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">КОРАБЛЬ:</p>
+                <p class="item-text">MSC Splendida</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">КОМПАНИЯ:</p>
+                <p class="item-text">MSC Cruises</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">РЕЙТИНГ:</p>
+                <p class="item-text">4,8</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">ТРАНСФЕР:</p>
+                <p class="item-text">Групповой</p>
+
+              </li>
+              <li class="rout-info-item">
+                <p class="item-text-title">ПИТАНИЕ:</p>
+                <p class="item-text">Полный пансион</p>
+
+              </li>
+            </ul>
+            <div class="rout-details-list">
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-1.svg" alt="icon">
+                <p>русскоязычная группа</p>
+              </div>
+
+              <div class="rout-details-icons rout-details-icons-width">
+                <img src="./images/best-routs/icons/icon-2.svg" alt="icon">
+                <p>включены <br>портовые сборы</p>
+              </div>
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-3.svg" alt="icon">
+                <p>дети <br> бесплатно</p>
+              </div>
+              <div class="rout-details-icons">
+                <img src="./images/best-routs/icons/icon-8.svg" alt="icon">
+                <p>безвизовый <br>круиз </p>
+              </div>
+            </div>
+
+            <div class="details-price">
+              <a class="details-more-link" href="#">Посмотреть</a>
+              <div class="price">от <span>1954</span> <span class="currency">EUR</span></div>
+            </div>
+
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="top-list">
+    <div class="top-list__inner">
+      <h3 class="top-list__title">Топ стран</h3>
+      <div class="top-list__cards">
+        <div class="top-list__card">
+          <img class="card__img" src="./images/top-list/card-1.jpg" alt="img">
+          <div class="card__text">
+            <h6 class="card__title">ZYA Regina Resort & Aqua Park</h6>
+            <p class="card__subtitle">Hurghada</p>
+            <ul class="card__details">
+              <li class="details-info">
+                <img src="./images/top-list/ion_timer.svg" alt="icon"> 11 дней - 10 ночей
+              </li>
+              <li class="details-info">
+                <img src="./images/top-list/ion_calendar.svg" alt="icon"> 31.03.2024
+              </li>
+            </ul>
+            <div class="details-price">
+              <a class="details-more-link" href="#">Подробнее</a>
+              <div class="price">от <span>2006</span> <span class="currency">EUR</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="top-list__card">
+          <img class="card__img" src="./images/top-list/card-2.jpg" alt="img">
+          <div class="card__text">
+            <h6 class="card__title">ZYA Regina Resort & Aqua Park</h6>
+            <p class="card__subtitle">Hurghada</p>
+            <ul class="card__details">
+              <li class="details-info">
+                <img src="./images/top-list/ion_timer.svg" alt="icon"> 11 дней - 10 ночей
+              </li>
+              <li class="details-info">
+                <img src="./images/top-list/ion_calendar.svg" alt="icon"> 31.03.2024
+              </li>
+            </ul>
+            <div class="details-price">
+              <a class="details-more-link" href="#">Подробнее</a>
+              <div class="price">от <span>2006</span> <span class="currency">EUR</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="top-list__card">
+          <img class="card__img" src="./images/top-list/card-3.jpg" alt="img">
+          <div class="card__text">
+            <h6 class="card__title">ZYA Regina Resort & Aqua Park</h6>
+            <p class="card__subtitle">Hurghada</p>
+            <ul class="card__details">
+              <li class="details-info">
+                <img src="./images/top-list/ion_timer.svg" alt="icon"> 11 дней - 10 ночей
+              </li>
+              <li class="details-info">
+                <img src="./images/top-list/ion_calendar.svg" alt="icon"> 31.03.2024
+              </li>
+            </ul>
+            <div class="details-price">
+              <a class="details-more-link" href="#">Подробнее</a>
+              <div class="price">от <span>2006</span> <span class="currency">EUR</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="partners">
+    <div class="partners__inner">
+      <h3 class="partners__title">Наши партнеры</h3>
+      <p class="partners__subtitle">мы работаем только с проверенными и надёжными туристическими операторами</p>
+      <div class="slider-arrows-wrapper">
+        <div class="partners-items">
+          <div class="partners-item"><img src="./images/partners/logo-3.png" alt="logo"></div>
+          <div class="partners-item"><img src="./images/partners/logo-2.png" alt="logo"></div>
+          <div class="partners-item"><img src="./images/partners/logo-1.png" alt="logo"></div>
+          <div class="partners-item"><img src="./images/partners/logo-1.png" alt="logo"></div>
+        </div>
+        <div class="partners__arrows slider-arrows-position">
+          <div class="parteners-arrow-prev slider-custom-arrow">
+            <img src="./images/partners/arrow-left.png" alt="prev">
+          </div>
+          <div class="parteners-arrow-next slider-custom-arrow">
+            <img src="./images/partners/arrow-right.png" alt="next">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="reviews">
+    <div class="reviews__inner">
+      <h3 class="reviews__title">Отзывы</h3>
+      <div class="slider-arrows-wrapper">
+        <div class="reviews-items">
+          <div class="reviews-item">
+            <div class="reviews-item-header">
+              <img src="./images/reviews/photo-1.png" alt="user"> Юлия:
+            </div>
+            <p class="reviews-item-text">
+              «Здравствуйте! Хочется поблагодарить Вашу компанию за удачно организованный отдых в течение двух последних
+              летних сезонов, а в особенности менеджера Анастасию.Она очень компетентная и внимательная, всегда на связи
+              (и днём, и утром, и поздно вечером), объяснит и решит все вопросы, подберёт наилучший вариант
+              под ваш бюджет.А ещё, что немаловажно — всегда на позитиве.В этом году отдыхали в Турции в отеле Ананас
+              4*, нам понравилось.Несомненно, когда решим в очередной раз съездить на отдых, то обратимся именно сюда!»
+            </p>
+          </div>
+          <div class="reviews-item">
+            <div class="reviews-item-header">
+              <img src="./images/reviews/photo-2.png" alt="user"> Ирина:
+            </div>
+            <p class="reviews-item-text">
+              «Несколько дней назад вернулись из отдыха в Турции, который для нашей семьи организовала Елена. Хочется
+              поблагодарить её за достойный выбор отеля „Лабранда“ в Сиде, который расположен в живописном хвойном
+              парке. Все составляющие нашего отдыха были на высоте: доброжелательный персонал отеля, чистые уютные
+              номера, великолепная средиземноморская кухня с огромным выбором блюд на самый изысканный вкус,
+              ну и конечно море! Благодарим компанию Лемур Тур и особенно Анастасию! Процветания вам и благодарных
+              клиентов!» </p>
+          </div>
+          <div class="reviews-item">
+            <div class="reviews-item-header">
+              <img src="./images/reviews/photo-3.png" alt="user"> Ирина:
+            </div>
+            <p class="reviews-item-text">
+              «Несколько дней назад вернулись из отдыха в Турции, который для нашей семьи организовала Елена. Хочется
+              поблагодарить её за достойный выбор отеля „Лабранда“ в Сиде, который расположен в живописном хвойном
+              парке.Все составляющие нашего отдыха были на высоте: доброжелательный персонал отеля, чистые уютные
+              номера, великолепная средиземноморская кухня с огромным выбором блюд на самый изысканный вкус,
+              ну и конечно море!Благодарим компанию Лемур Тур и особенно Анастасию! Процветания вам и благодарных
+              клиентов!» </p>
+          </div>
+        </div>
+        <div class="reviews__arrows slider-arrows-position">
+          <div class="reviews-arrow-prev slider-custom-arrow">
+            <img src="./images/reviews/slider-arrow-left.png" alt="prev">
+          </div>
+          <div class="reviews-arrow-next slider-custom-arrow">
+            <img src="./images/reviews/slider-arrow-right.png" alt="next">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="send-application">
+    <div class="send-application__inner">
+      <h3 class="send-application__title">Отправить заявку на тур</h3>
+
+
+      <form class="form-send-application">
+        <div class="form-fields">
+          <div class="form-fields-item">
+            <label for="name" class="form-text">Как вас зовут *</label>
+            <input type="text" id="name" name="name" required placeholder="Саша">
+          </div>
+          <div class="form-fields-item">
+            <label for="phone" class="form-text">Телефон *</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+3751212343423">
+          </div>
+        </div>
+
+
+        <label for="message" class="form-text">Сообщение</label>
+        <textarea id="message" name="message"></textarea>
+        <p class="form-text">*Обязательны к заполнению</p>
+
+        <button type="submit">Отправить</button>
+      </form>
+
+    </div>
+  </section>
+  <section class="catalog">
+    <div class="catalog__wrapper">
+      <div class="catalog__inner">
+        <h3 class="section__title catalog__title">Каталог туров</h3>
+        <div class="catalog__menu-cards">
+            <div class="desc__select" data-state="">
+            <div class="desc__select__content">
+              <input id="typeTour1" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour1" class="desc__select__label">Пляжный отдых</label>
+              <input id="typeTour2" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour2" class="desc__select__label">Экзотика</label>
+              <input id="typeTour3" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour3" class="desc__select__label">Египет для граждан РФ</label>
+              <input id="typeTour4" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour4" class="desc__select__label">Круизы</label>
+              <input id="typeTour5" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour5" class="desc__select__label">Раннее бронирование</label>
+              <input id="typeTour6" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour6" class="desc__select__label">Туры по Беларуси</label>
+              <input id="typeTour7" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour7" class="desc__select__label">Экскурсии + отдых</label>
+              <input id="typeTour8" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour8" class="desc__select__label">Туры на 8 марта</label>
+              <input id="typeTour9" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour9" class="desc__select__label">Туры на майские</label>
+              <input id="typeTour10" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour10" class="desc__select__label">Популярные туры</label>
+              <input id="typeTour11" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour11" class="desc__select__label">Свадебное путешествие</label>
+              <input id="typeTour12" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour12" class="desc__select__label">Детский отдых</label>
+              <input id="typeTour13" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour13" class="desc__select__label">Туры на лоукостах</label>
+              <input id="typeTour14" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour14" class="desc__select__label">Корпоративный отдых</label>
+              <input id="typeTour15" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour15" class="desc__select__label">Молодежные туры</label>
+              <input id="typeTour16" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour16" class="desc__select__label">Санатории и оздоровление</label>
+              <input id="typeTour17" class="desc__select__input" type="radio" name="singleSelect" />
+              <label for="typeTour17" class="desc__select__label">Семейный отдых</label>
+            </div>
+          </div>
+          <div class="custom-select-input">
+            <form>
+              <div class="__select" data-state="">
+                <div class="__select__title select-selected" data-default="Option 0"><span>Каталог туров</span></div>
+                <div class="__select__content">
+                  <input id="typeTour1" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour1" class="__select__label">Пляжный отдых</label>
+                  <input id="typeTour2" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour2" class="__select__label">Экзотика</label>
+                  <input id="typeTour3" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour3" class="__select__label">Египет для граждан РФ</label>
+                  <input id="typeTour4" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour4" class="__select__label">Круизы</label>
+                  <input id="typeTour5" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour5" class="__select__label">Раннее бронирование</label>
+                  <input id="typeTour6" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour6" class="__select__label">Туры по Беларуси</label>
+                  <input id="typeTour7" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour7" class="__select__label">Экскурсии + отдых</label>
+                  <input id="typeTour8" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour8" class="__select__label">Туры на 8 марта</label>
+                  <input id="typeTour9" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour9" class="__select__label">Туры на майские</label>
+                  <input id="typeTour10" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour10" class="__select__label">Популярные туры</label>
+                  <input id="typeTour11" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour11" class="__select__label">Свадебное путешествие</label>
+                  <input id="typeTour12" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour12" class="__select__label">Детский отдых</label>
+                  <input id="typeTour13" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour13" class="__select__label">Туры на лоукостах</label>
+                  <input id="typeTour14" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour14" class="__select__label">Корпоративный отдых</label>
+                  <input id="typeTour15" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour15" class="__select__label">Молодежные туры</label>
+                  <input id="typeTour16" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour16" class="__select__label">Санатории и оздоровление</label>
+                  <input id="typeTour17" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="typeTour17" class="__select__label">Семейный отдых</label>
+                </div>
+              </div>
+            </form>
+            <div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="best-routes-items">
+              <div class="best-routes-card routes-card-4">
+                <div class="routes-card-title">
+                  <h5 class="rout-name">
+                    Три моря из Стамбула
+                  </h5>
+                  <p class="rout-date rout-date-desc">
+                    <img src="./images/best-routs/icons/timer.svg" alt="icon"> 10 дней - 9 ночей
+                  </p>
+                </div>
+                <p class="rout-description">
+                  Круиз по Восточному Средиземноморью: от Адриатики до Эгейского моря
+                </p>
+                <p class="rout-date rout-date-mob">
+                  <img src="./images/best-routs/icons/timer.svg" alt="icon"> 10 дней - 9 ночей
+                </p>
+                <ul class="rout-details">
+                  <li class="rout-info-item">
+                    <p class="item-text-title">МАРШРУТ:</p>
+                    <p class="item-text">Стамбул - о. Корфу - Бари - Триест - Катаколон (Пелопоннес) - Пирей (Афины) -
+                      Кушадасы
+                    </p>
+                  </li>
+                  <div class="li__add-info">
+                    <li class="rout-info-item">
+                      <p class="item-text-title">КОРАБЛЬ:</p>
+                      <p class="item-text">MSC Splendida</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">КОМПАНИЯ:</p>
+                      <p class="item-text">MSC Cruises</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">РЕЙТИНГ:</p>
+                      <p class="item-text">4,8</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">ТРАНСФЕР:</p>
+                      <p class="item-text">Групповой</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">ПИТАНИЕ:</p>
+                      <p class="item-text">Полный пансион</p>
+                    </li>
+                  </div>
+                </ul>
+                <div class="rout-details-list">
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-1.svg" alt="icon">
+                    <p>русскоязычная группа</p>
+                  </div>
+                  <div class="rout-details-icons rout-details-icons-width">
+                    <img src="./images/best-routs/icons/icon-2.svg" alt="icon">
+                    <p>включены <br>портовые сборы</p>
+                  </div>
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-3.svg" alt="icon">
+                    <p>дети <br> бесплатно</p>
+                  </div>
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-8.svg" alt="icon">
+                    <p>безвизовый <br>круиз </p>
+                  </div>
+                </div>
+                <div class="details-price">
+                  <a class="details-more-link" href="#">Посмотреть</a>
+                  <div class="price">от <span>1954</span> <span class="currency">EUR</span></div>
+                </div>
+              </div>
+              <div class="best-routes-card routes-card-3">
+                <div class="routes-card-title">
+                  <h5 class="rout-name">
+                    Средиземное море
+                  </h5>
+                  <p class="rout-date rout-date-desc">
+                    <img src="./images/best-routs/icons/timer.svg" alt="icon"> 11 дней - 10 ночей
+                  </p>
+                </div>
+                <p class="rout-description">
+                  Италия, Мальта, Испания и Франция на борту самого большого флагманского лайнера MSC
+                </p>
+                <p class="rout-date rout-date-mob">
+                  <img src="./images/best-routs/icons/timer.svg" alt="icon"> 11 дней - 10 ночей
+                </p>
+                <ul class="rout-details">
+                  <li class="rout-info-item">
+                    <p class="item-text-title">МАРШРУТ:</p>
+                    <p class="item-text">Генуя -Неаполь - Мессина (Сицилия) - Валлетта (Мальта) - Барселона - Марсель
+                    </p>
+                  </li>
+                  <div class="li__add-info">
+                    <li class="rout-info-item">
+                      <p class="item-text-title">КОРАБЛЬ:</p>
+                      <p class="item-text">MSC World Europa</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">КОМПАНИЯ:</p>
+                      <p class="item-text">MSC Cruises</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">РЕЙТИНГ:</p>
+                      <p class="item-text">4,9</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">ТРАНСФЕР:</p>
+                      <p class="item-text">Групповой</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">ПИТАНИЕ:</p>
+                      <p class="item-text">Полный пансион</p>
+                    </li>
+                  </div>
+                </ul>
+                <div class="rout-details-list">
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-1.svg" alt="icon">
+                    <p>русскоязычная группа</p>
+                  </div>
+                  <div class="rout-details-icons rout-details-icons-width">
+                    <img src="./images/best-routs/icons/icon-2.svg" alt="icon">
+                    <p>включены <br>портовые сборы</p>
+                  </div>
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-3.svg" alt="icon">
+                    <p>дети <br> бесплатно</p>
+                  </div>
+                </div>
+                <div class="details-price">
+                  <a class="details-more-link" href="#">Посмотреть</a>
+                  <div class="price">от <span>2006</span> <span class="currency">EUR</span></div>
+                </div>
+              </div>
+              <div class="best-routes-card routes-card-2">
+                <div class="routes-card-title">
+                  <h5 class="rout-name">
+                    Норвежские фьорды
+                  </h5>
+                  <p class="rout-date rout-date-desc">
+                    <img src="./images/best-routs/icons/timer.svg" alt="icon"> 7 дней - 6 ночей
+                  </p>
+                </div>
+                <p class="rout-description">
+                  Самые красивые места в Северной Европе на новейшем лайнере MSC Euribia
+                </p>
+                <p class="rout-date rout-date-mob">
+                  <img src="./images/best-routs/icons/timer.svg" alt="icon"> 7 дней - 6 ночей
+                </p>
+                <ul class="rout-details">
+                  <li class="rout-info-item">
+                    <p class="item-text-title">МАРШРУТ:</p>
+                    <p class="item-text">Киль - Копенгаген - Хеллесильт - Молде/Олесунн - Флом
+                    </p>
+                  </li>
+                  <div class="li__add-info">
+                    <li class="rout-info-item">
+                      <p class="item-text-title">КОРАБЛЬ:</p>
+                      <p class="item-text">MSC Euribia</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">КОМПАНИЯ:</p>
+                      <p class="item-text">MSC Cruises</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">РЕЙТИНГ:</p>
+                      <p class="item-text">4,8</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">ТРАНСФЕР:</p>
+                      <p class="item-text">Групповой</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">ПИТАНИЕ:</p>
+                      <p class="item-text">Полный пансион</p>
+                    </li>
+                  </div>
+                </ul>
+                <div class="rout-details-list">
+                  <div class="rout-details-icons rout-details-icons-width">
+                    <img src="./images/best-routs/icons/icon-2.svg" alt="icon">
+                    <p>включены <br>портовые сборы</p>
+                  </div>
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-3.svg" alt="icon">
+                    <p>дети <br> бесплатно</p>
+                  </div>
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-7.svg" alt="icon">
+                    <p>популярный<br> круиз</p>
+                  </div>
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-6.svg" alt="icon">
+                    <p>речной <br>
+                      круиз</p>
+                  </div>
+                </div>
+                <div class="details-price">
+                  <a class="details-more-link" href="#">Посмотреть</a>
+                  <div class="price">от <span>1946</span> <span class="currency">EUR</span></div>
+                </div>
+              </div>
+              <div class="best-routes-card routes-card-1">
+                <div class="routes-card-title">
+                  <h5 class="rout-name">
+                    Персидский залив
+                  </h5>
+                  <p class="rout-date rout-date-desc">
+                    <img src="./images/best-routs/icons/timer.svg" alt="icon"> 11 дней - 10 ночей
+                  </p>
+                </div>
+                <p class="rout-description">
+                  Зимний безвизовый круиз по Ближнему Востоку с прямым перелетом из Минска
+                </p>
+                <p class="rout-date rout-date-mob">
+                  <img src="./images/best-routs/icons/timer.svg" alt="icon"> 11 дней - 10 ночей
+                </p>
+                <ul class="rout-details">
+                  <li class="rout-info-item">
+                    <p class="item-text-title">МАРШРУТ:</p>
+                    <p class="item-text">Дубай -Доха - Бахрейн - Абу-Даби - остров-заповедник Сир-Бани-Яс</p>
+                  </li>
+                  <div class="li__add-info">
+                    <li class="rout-info-item">
+                      <p class="item-text-title">КОРАБЛЬ:</p>
+                      <p class="item-text">MSC Virtuosa</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">КОМПАНИЯ:</p>
+                      <p class="item-text">MSC Cruises</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">РЕЙТИНГ:</p>
+                      <p class="item-text">4,7</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">ТРАНСФЕР:</p>
+                      <p class="item-text">Групповой</p>
+                    </li>
+                    <li class="rout-info-item">
+                      <p class="item-text-title">ПИТАНИЕ:</p>
+                      <p class="item-text">Полный пансион</p>
+                    </li>
+                  </div>
+                </ul>
+                <div class="rout-details-list">
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-1.svg" alt="icon">
+                    <p>русскоязычная группа</p>
+                  </div>
+                  <div class="rout-details-icons rout-details-icons-width">
+                    <img src="./images/best-routs/icons/icon-2.svg" alt="icon">
+                    <p>включены <br>портовые сборы</p>
+                  </div>
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-3.svg" alt="icon">
+                    <p>дети <br> бесплатно</p>
+                  </div>
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-4.svg" alt="icon">
+                    <p>безвизовый круиз</p>
+                  </div>
+                  <div class="rout-details-icons">
+                    <img src="./images/best-routs/icons/icon-5.svg" alt="icon">
+                    <p>удобный переезд</p>
+                  </div>
+                </div>
+                <div class="details-price">
+                  <a class="details-more-link" href="#">Посмотреть</a>
+                  <div class="price">от <span>1266</span> <span class="currency">EUR</span></div>
+                </div>
+              </div>
+            </div>
+            <ul class="pagination-catalog-page">
+              <li class="page-item page-item paginaton-arrow-prev disabled">
+              </li>
+              <li class="page-item paginaton-number page-item-first active ">1</li>
+              <li class="page-item paginaton-number">2</li>
+              <li class="page-item paginaton-number">3</li>
+              <li class="page-item paginaton-number paginaton-number-hidden">4</li>
+              <li class="page-item paginaton-number paginaton-number-hidden">5</li>
+              <li class="page-item">..</li>
+              <li class="page-item paginaton-number page-item-last paginaton-number-hidden">98</li>
+              <li class="page-item paginaton-number page-item-last">99</li>
+              <li class="page-item page-item paginaton-arrow-next"></li>
+            </ul>
+          </div>
+        </div>
+  </section>
+  <section class="send-application-catalog">
+    <div class="send-application-catalog__inner">
+      <h3 class="send-application-catalog__title">Отправить заявку на тур</h3>
+      <form class="form-send-application-catalog">
+        <div class="form__inner">
+          <div class="form-fields">
+            <div class="form-fields-item">
+              <label for="name" class="form-text">Как вас зовут *</label>
+              <input type="text" id="name" name="name" required placeholder="Саша">
+            </div>
+            <div class="form-fields-item">
+              <label for="phone" class="form-text">Email</label>
+              <input type="text" id="phone" name="email" placeholder="sasha@pochta.by">
+            </div>
+            <div class="form-fields-item">
+              <label for="phone" class="form-text">Телефон *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+3751212343423">
+            </div>
+          </div>
+          <div>
+            <label for="message" class="form-text">Сообщение</label>
+            <textarea id="message" name="message"></textarea>
+            <p class="form-text form-text-margin form-text-mob">*Обязательны к заполнению</p>
+            <p class="form-text form-text-mob">Отправка заявки ни к чему не обязывает и не является бронированием.
+              Получив заявку, менеджер туристической компании уточнит наличие тура и свяжется с Вами.</p>
+            <button type="submit">Отправить</button>
+          </div>
+        </div>
+      </form>
+      <p class="form-text form-text-margin form-text-desc">*Обязательны к заполнению</p>
+      <p class="form-text form-text-desc">Отправка заявки ни к чему не обязывает и не является бронированием. Получив
+        заявку, менеджер туристической компании уточнит наличие тура и свяжется с Вами.</p>
+    </div>
+  </section>
+  <section class="reviews-page">
+    <div class="reviews__inner">
+      <h3 class="reviews__title">Отзывы</h3>
+      <div class="reviews-page-items">
+        <div class="reviews-item">
+          <div class="reviews-item-header">
+            <img src="./images/reviews/photo-1.png" alt="user"> Юлия:
+          </div>
+          <p class="reviews-item-text">
+            «Здравствуйте! Хочется поблагодарить Вашу компанию за удачно организованный отдых в течение двух последних
+            летних сезонов, а в особенности менеджера Анастасию.Она очень компетентная и внимательная, всегда на связи
+            (и днём, и утром, и поздно вечером), объяснит и решит все вопросы, подберёт наилучший вариант
+            под ваш бюджет.А ещё, что немаловажно — всегда на позитиве.В этом году отдыхали в Турции в отеле Ананас
+            4*, нам понравилось.Несомненно, когда решим в очередной раз съездить на отдых, то обратимся именно сюда!»
+          </p>
+        </div>
+        <div class="reviews-item">
+          <div class="reviews-item-header">
+            <img src="./images/reviews/photo-2.png" alt="user"> Ирина:
+          </div>
+          <p class="reviews-item-text">
+            «Несколько дней назад вернулись из отдыха в Турции, который для нашей семьи организовала Елена. Хочется
+            поблагодарить её за достойный выбор отеля „Лабранда“ в Сиде, который расположен в живописном хвойном
+            парке. Все составляющие нашего отдыха были на высоте: доброжелательный персонал отеля, чистые уютные
+            номера, великолепная средиземноморская кухня с огромным выбором блюд на самый изысканный вкус,
+            ну и конечно море! Благодарим компанию Лемур Тур и особенно Анастасию! Процветания вам и благодарных
+            клиентов!» </p>
+        </div>
+        <div class="reviews-item">
+          <div class="reviews-item-header">
+            <img src="./images/reviews/photo-3.png" alt="user"> Анастасия:
+          </div>
+          <p class="reviews-item-text">
+            «Здравствуйте! Выражаем благодарность Анастасии, за отзывчивость, профессионализм и терпение. Сложные
+            времена как для туристов так и волшебных фей, которые отправляют нас на морюшко. Желаем процветание
+            компании, адекватных туристов и самое главное здоровья! Семья Лысых»</p>
+        </div>
+        <div class="reviews-item">
+          <div class="reviews-item-header">
+            <img src="./images/reviews/photo-4.png" alt="user"> Михаил:
+          </div>
+          <p class="reviews-item-text">
+            «Каждый год с семьёй выезжаю отдыхать в тёплые страны и каждый раз возникает много вопросов (показательное
+            заселение в номер-страшилку, косяки с трансфером, несоответствие отеля звёздности и ярким описаниям
+            менеджера турагентства и т.д.).2022 год стал приятным исключением! Впервые всё прошло как по маслу с момента
+            возникновения мысли о том, что и в этом противоречивом году, нужно ехать отдыхать и до счастливого
+            возвращения домой!Спасибо менеджеру Лемур Тур, Анастасии! Она сразу сказала какой отель подойдёт именно
+            нам и попала на 100%. Все документы были оформлены своевременно и без косяков. Заселение прошло на ура,
+            номер супер и с первого раза! Браво, однозначно сработали пометки, которые Анастасия делала для отеля!
+            В номере ждал приятный персонализированный сюрприз в честь годовщины свадьбы — 100% проделки Анастасии,
+            но ВАУ эффект был максимальным!На обратном пути никто не мог заранее занять места в самолёте, т.к. на данный
+            чартерный рейс туристам не предоставлялись номера билетов и регистрация была возможна только в аэропорту.
+            Даже гиды в отеле мне сказали, что зарегестрироваться нельзя! Анастасия выбила для моей семьи эти номера
+            и мы летели вместе на отличных местах, а остальных пассажиров сильно разбросали по самолёту. Анастасия,
+            это был высший пилотаж. Мне наш отельный гид до сих пор задаёт вопросы как мне это удалось)))В общем
+            это был первый отдых, когда казалось, что ноги отрывались от земли от удовольствия!Спасибо, Анастасия,
+            теперь все туры только у вас, несмотря на то, что живём мы в Москве)Ждём открытия вашего собственного
+            турагентства! Так держать))) До встречи следующим летом)»</p>
+        </div>
+        <div class="reviews-item">
+          <div class="reviews-item-header">
+            <img src="./images/reviews/photo-5.png" alt="user"> Виктория:
+          </div>
+          <p class="reviews-item-text">
+            «Все оформили четко. вовремя и все по делу. Цены адекватные буду заказывать летом еще туры»</p>
+        </div>
+        <div class="reviews-item">
+          <div class="reviews-item-header">
+            <img src="./images/reviews/photo-6.png" alt="user"> Илья:
+          </div>
+          <p class="reviews-item-text">
+            «Добрый день! Отдыхали в октябре в Египте, Хургада. Всё было супер. Огромное спасибо агентству
+            и персонально — Анастасии! Анастасия — вы просто чудесная! Максимально во всём помогла, подсказала,
+            организовала. Поддерживала связь на протяжении всего отдыха. Одно удовольствие было сотрудничать с ней.
+            Будем обязательно обращаться ещё! Спасибо!»</p>
+        </div>
+      </div>
+      <ul class="pagination-reviews-page">
+        <li class="page-item page-item paginaton-arrow-prev disabled">
+        </li>
+        <li class="page-item paginaton-number page-item-first active ">1</li>
+        <li class="page-item paginaton-number">2</li>
+        <li class="page-item paginaton-number">3</li>
+        <li class="page-item paginaton-number paginaton-number-hidden">4</li>
+        <li class="page-item paginaton-number paginaton-number-hidden">5</li>
+        <li class="page-item">..</li>
+        <li class="page-item paginaton-number page-item-last paginaton-number-hidden">98</li>
+        <li class="page-item paginaton-number page-item-last">99</li>
+        <li class="page-item page-item paginaton-arrow-next"></li>
+      </ul>
+    </div>
+  </section>
+  <section class="certificates">
+    <div class="certificates__wrapper">
+      <div class="certificates__inner">
+        <h3 class="section__title certificates__title">Сертификаты</h3>
+        <div class="certificates__content">
+          <img src="./images/certificates/certificat-0.jpg" alt="Сертификаты">
+          <div class="certificates__content-text">
+            <h5 class="text-title">
+              Сертификат соответствия <br>
+              № BY/112 04.03. 071.01 00004
+            </h5>
+            <p> Выдан ГУ «Национальное агентство по туризму» Министерства спорта и туризма Республики Беларусь.
+              Компания Travel House прошла добровольную сертификацию услуг. Ежегодно аудиторы ГУ «Национальное
+              агентство по туризму» проверяют офисы продаж, уровень квалификации специалистов компании,
+              внутреннюю документацию, договоры оказания туристических услуг, стандарты работы и подтверждают
+              соответствие услуг компании актуальным требованиям Закона о туризме и другому законодательству
+              Республики Беларусь.</p>
+
+            <p>Сведения об организации, обеспечивающей исполнение туроператором обязательств по договорам
+              оказания туристических услуг: Фонд ответственности туроператоров / Республиканская Ассоциация
+              Туристических Агентств (РАТА), 220100 г. Минск, ул. Кульман, 18, каб.33, тел. +375173525066</p>
+          </div>
+        </div>
+        <div class="certificates__imgs">
+          <img src="./images/certificates/certificat-1.jpg" alt="Сертификат">
+          <img src="./images/certificates/certificat-2.jpg" alt="Сертификат">
+          <img src="./images/certificates/certificat-3.jpg" alt="Сертификат">
+          <img src="./images/certificates/certificat-4.jpg" alt="Сертификат">
+        </div>
+        <h3 class="section__title certificates__title">Дипломы</h3>
+        <div class="diploms__imgs">
+          <img src="./images/certificates/diplom-1.jpg" alt="Диплом">
+          <img src="./images/certificates/diplom-2.jpg" alt="Диплом">
+          <img src="./images/certificates/diplom-3.jpg" alt="Диплом">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="contacts__wrapper">
+      <div class="contacts__inner">
+        <h3 class="section__title certificates__title">Контакты</h3>
+        <h5 class="contacts__subtitle">Вы можете связаться с нами следующими способами </h5>
+        <ul>
+          <li> <span>По телефону.</span> Позвоните по указанному номеру, и наш менеджер ответит на возникшие вопросы
+            относительно наших услуг и доступных круизов (стоимость, маршрут и т.д.
+          </li>
+          <li><span>В мессенджерах.</span> Мы доступны в Telegram, Viber и WhatsApp. Напишите в удобном для вас
+            мессенджере, чтобы мы помогли с выбором круиза и проконсультировали по всем вопросам
+          </li>
+          <li><span>По электронной почте.</span> Отправьте сообщение на указанную почту, чтобы получить информацию по
+            круизам, лайнерам и нашим услугам. Менеджер ответит в течение суток
+          </li>
+          <li><span>Личная встреча.</span> Если вам удобнее обсудить детали круиза лично, мы организуем встречу в нашем
+            офисе. Отметим, что приём клиентов осуществляются по предварительной записи
+          </li>
+        </ul>
+        <p class="contacts__text">Мы с радостью ответим на любые вопросы, подберем для вас подходящий круиз и организуем
+          незабываемое путешествие.</p>
+        <div class="contacts__items">
+          <div class="contacts__item block1">
+            <div class="contacts__subitem">
+              <div class="contacts-title">Наш адрес:</div>
+              <p class="contacts-text">Минск, пр-т Независимости, 11/2, офис 201</p>
+            </div>
+            <div class="contacts__subitem">
+              <div class="contacts-title">Режим работы:</div>
+              <p class="contacts-text">Пн-Пт с 10 до 19 <br>
+                Сб с 11 до 16<br>
+                Вс - выходной</p>
+            </div>
+          </div>
+          <div class="contacts__item block2">
+            <div class="contacts-title">Контакты:</div>
+            <div class="contacts-links-wrapper">
+              <div class="contacts-text contacts-links">
+                <a class="social-link" href="#" target="_blank">
+                  <img src="./images/contacts/viber.svg" alt="viber">
+                </a>
+                <a class="social-link" href="#" target="_blank">
+                  <img src="./images/contacts/whatsApp.svg" alt="WhatsApp">
+                </a>
+                <a class="social-link" href="#" target="_blank">
+                  <img src="./images/contacts/telegram.svg" alt="Telegram">
+                </a>
+                <a class="social-link" href="tel:#">
+                  <img src="./images/contacts/call.svg" alt="Phone"> +375 44 545 55 35
+                </a>
+              </div>
+              <div class="contacts-text contacts-links">
+                <a class="social-link" href="#">
+                  <img src="./images/contacts/instagram.svg" alt="instagram"> www.instagram.com/travel.prosto
+                </a>
+              </div>
+              <div class="contacts-text contacts-links">
+                <a class="social-link" href="mailto:#">
+                  <img src="./images/contacts/mail.svg" alt="Email"> travel_prosto@mail.ru
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contacts__item block3">
+            <div class="contacts-title">Наши реквизиты:</div>
+            <p class="contacts-text"> ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ ЛЯШЕНКО ЕЛЕНА АЛЕКСАНДРОВНА <br>
+              Адрес: РБ, МИНСКАЯ ОБЛ., МИНСКИЙ РАЙОН, Г. МИНСК, УЛ. НЕЖДАНОВОЙ, Д. 13-1<br>
+              УНП: 193577716<br>
+              Текущий (расчетный): BY26ALFA30132A50310010270000 в BYN в ЗАО «Альфа-Банк»,<br>
+              БИК: ALFABY2X<br>
+              ОКПО: 749192795000<br></p>
+          </div>
+        </div>
+        <div class="contacts-map">
+          <iframe class="map" src="https://www.google.com/maps/d/embed?mid=13oiSajdjLTrBZJigulqG2dtyrQPU5FM&ehbc=2E312F"
+            width="1148" height="380"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__item footer-item-1">
+        <div class="footer__logo">
+          <img src="./images/img-footer/logo.svg" alt="logo" />
+        </div>
+        <div class="nav__wrapper" id="nav__wrapper">
+          <nav class="nav" id="navigation">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link">Каталог круизов
+                  <img class="arrow-nav" src="./images/img-footer/arrow-menu.svg" alt="arrow" /></a>
+                <ul class="submenu">
+                  <li class="submenu__item">
+                    <a class="submenu__link">Кругосветка</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link">По нилу</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link">Страны
+                  <img class="arrow-nav" src="./images/img-footer/arrow-menu.svg" alt="arrow" /></a>
+                <ul class="submenu">
+                  <li class="submenu__item">
+                    <a class="submenu__link">Дубай</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link">Турция</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link">Испания</a>
+                  </li>
+                  <li class="submenu__item"><a class="submenu__link">США</a></li>
+                  <li class="submenu__item submenu__item-more">
+                    еще
+                    <img class="arrow-nav-more" src="./images/img-footer/arrow-menu.svg" alt="arrow" />
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link">Китай</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link">Египет</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link">Лайнеры
+                  <img class="arrow-nav" src="./images/img-footer/arrow-menu.svg" alt="arrow" /></a>
+                <ul class="submenu">
+                  <li class="submenu__item">
+                    <a class="submenu__link">Европа</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link">Виртуоза</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item"><a class="nav__link">О нас </a></li>
+              <li class="nav__item"><a class="nav__link">Контакты </a></li>
+              <li class="nav__item"><a class="nav__link">Оплата </a></li>
+              <li class="nav__item"><a class="nav__link">Отзывы</a></li>
+              <li class="nav__item">
+                <a class="nav__link">Документы и Сертификаты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+
+      </div>
+      <div class="footer-items-wrapper">
+        <div class="footer__item footer-item-2">
+          <div class="footer-contacts footer-contacts-mob">
+            <div class="contacts__info">
+              <div class="contacts__working-hours block-flex">
+                <img src="./images/img-footer/time.svg" alt="working hours" />
+                <p class="working-hours-mob">
+                  Пн-Пт с 10 до 19 <br />Сб с 11 до 16<br />
+                  Вс - выходной
+                </p>
+                <p class="working-hours-mob-footer">
+                  Пн-Пт с 10 до 19, Сб с 11 до 16, Вс - выходной
+                </p>
+              </div>
+              <div class="contacts-links block-flex">
+                <img src="./images/img-footer/call.svg" alt="phone" />
+                <a class="phone" href="tel:+375296801830"> +375 44 545 55 35</a>
+              </div>
+              <div class="contacts-links block-flex">
+                <img src="./images/img-footer/mail.svg" alt="email" />
+                <a class="email" href="mailto:travel_prosto@mail.ru"> travel_prosto@mail.ru</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="social__wrapper">
+            <a class="social-link" href="https://t.me/+375445455535" target="_blank">
+              <img src="./images/img-footer/telegram.svg" alt="telegram" />
+            </a>
+            <a class="social-link" href="https://wa.me/+375445455535" target="_blank">
+              <img src="./images/img-footer/whatsapp.svg" alt="whatsapp" />
+            </a>
+            <a class="social-link" href="www.instagram.com/travel.prosto" target="_blank">
+              <img src="./images/img-footer/instagram.svg" alt="instagram" />
+            </a>
+            <a class="social-link" href="viber://add?number=+375445455535" target="_blank">
+              <img src="./images/img-footer/viber.svg" alt="viber" />
+            </a>
+          </div>
+        </div>
+        <div class="footer__item footer-item-3">
+          <div class="footer__content">
+            Предложение не является офертой. Информация об отеле и перечень услуг в нем может быть неточным, в том числе
+            по вине самих отелей. Уточняйте перечень услуг, входящих в тур, и условия в отеле непосредственно
+            при покупке
+            тура
+          </div>
+          <div class="footer__content content-info">
+            ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ ЛЯШЕНКО ЕЛЕНА АЛЕКСАНДРОВНА<br>
+            Адрес: РБ, МИНСКАЯ ОБЛ., МИНСКИЙ РАЙОН, Г. МИНСК, <br>
+            УЛ. НЕЖДАНОВОЙ, Д. 13-1<br>
+            УНП: 193577716<br>
+            Текущий (расчетный): BY26ALFA30132A50310010270000 <br>
+            в BYN в ЗАО «Альфа-Банк»,<br>
+            БИК: ALFABY2X<br>
+            ОКПО: 749192795000<br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__link">
+      <a class="vtop3-link" href="https://vtop3.by/uslugi/sozdanie-sajtov/" target="_blank">Разработка сайта ВТОП3</a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/main-page.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/footer.js"></script>
+
+</body>
+
+</html>
